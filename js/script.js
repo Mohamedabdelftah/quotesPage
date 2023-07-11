@@ -70,4 +70,5 @@ function generateQuote() {
   quoteBody.innerHTML = quotes[newId].body
   quoteOwner.innerHTML = quotes[newId].owner
   ownerImg.src = quotes[newId].img
+  ownerImg.alt = quotes[newId].owner
 }

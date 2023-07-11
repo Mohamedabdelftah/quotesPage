@@ -49,7 +49,7 @@ var quotes = {
     owner: "Dr. Seuss",
   },
 };
-
+console.log("Hello World")
 
 var quoteBody = document.getElementById("quoteBody");
 var quoteOwner = document.getElementById("quoteOwner");

@@ -71,5 +71,5 @@ function generateQuote() {
   quoteOwner.innerHTML = quotes[newId].owner
   ownerImg.src = quotes[newId].img
   ownerImg.alt =  quotes[newId].owner
-  console.log(ownerImg);
+  
 }
